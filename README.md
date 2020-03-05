@@ -18,3 +18,4 @@ This program is based of the board game Mancala. The rules are the same. There i
 
 # Code Summery
 
+There is a board, state, and tree class. The state class has a has-a relation with the board class and this enables the  board to have different "states". The tree class has a has-as relation with the state class. Using all this, the tree will grow so graph search can be used to find a winning state. 
