@@ -70,6 +70,36 @@ private:
 
 #### State Class
 
+```cpp
+class tNode{
+private:
+	Board state;			// this the tNode's board state
+	tNode** childern;		// dynamic array of tNode*
+	tNode* parent;			// pointer to parent of tNode
+	size_t numChildern;		// number of childern tNode has (max is 6 childern)
+public:	
+	tNode();			//default constructor
+	tNode(Board& board);		//contructor
+	tNode(tNode* Parent, Board board, size_t pos);		
+	~tNode();			//destructor
+	
+	//set functions
+	void setParent(tNode* Parent);		
+	void setNumC();				
+
+	//get functions
+	tNode* getParent();		
+	size_t getNumC();		
+	Board getBoard();		
+	tNode* getChild(size_t i);	
+
+	//other functions
+	void expand();			
+	void swapChild(size_t pos1, size_t pos2);	
+	void copyBoard(Board board);			
+};
+```
+
 #### Tress Class
 
 #### Breath-first Search
