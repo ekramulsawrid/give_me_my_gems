@@ -81,6 +81,9 @@ private:
 <details>
 <p>
 
+[Header File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/State.h)
+[Implementation File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/State.cpp)
+
 ```cpp
 class tNode{
 private:
@@ -117,6 +120,9 @@ public:
 
 <details>
 <p>
+
+[Header File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/Functions.h)
+[Implementation File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/Functions.cpp)
 
 ```cpp
 //Breath-First Search
