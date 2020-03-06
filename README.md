@@ -30,6 +30,9 @@ There is a board, state, and tree class. The state class has a has-a relation wi
 <details>
 <p>
 
+[Header File (.cpp)] (https://github.com/ekramulsawrid/give_me_my_gems/blob/master/Board.h)
+[Implementation File (.h)] (https://github.com/ekramulsawrid/give_me_my_gems/blob/master/Board.cpp)
+
 ```cpp
 class Board{
 public:
