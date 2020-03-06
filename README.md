@@ -25,7 +25,7 @@ There is a board, state, and tree class. The state class has a has-a relation wi
 
 ### Code Snippets
 
-#### Board Class
+#### Board Class Declaration
 
 ```cpp
 class Board{
@@ -68,7 +68,7 @@ private:
 };
 ```
 
-#### State Class
+#### State Class Declaration
 
 ```cpp
 class tNode{
@@ -100,10 +100,31 @@ public:
 };
 ```
 
-#### Tress Class
+#### Search Functions and Mode Declarations
 
-#### Breath-first Search
+<details>
+```cpp
+//Breath-First Search
+void BFS(tNode* Parent);
 
-#### Depth-first Search
+//Dept-First Search
+void DFS(tNode* Parent);
 
-#### Min-max Search
+bool DFS_V(tNode* curr, size_t count);
+
+//Minimax Search
+void MMS(tNode* Parent);
+
+bool MMS_V(tNode* curr, size_t count);
+
+//Playing the game, where player 1 is the computer who uses DFS to make move
+void Play(Board mainBoard);
+
+size_t comDFS(Board mainBoard);
+
+bool comDFS_V(tNode* curr, size_t count);
+
+//Multi Player (Human vs Human)
+void MultiPlay(Board board);
+```
+</details>
