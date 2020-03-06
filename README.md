@@ -27,6 +27,9 @@ There is a board, state, and tree class. The state class has a has-a relation wi
 
 #### Board Class Declaration
 
+<details>
+<p>
+
 ```cpp
 class Board{
 public:
@@ -67,8 +70,13 @@ private:
 	size_t turn=1;				// keepS track of whose turn is it to move
 };
 ```
+</p>
+</details>
 
 #### State Class Declaration
+
+<details>
+<p>
 
 ```cpp
 class tNode{
@@ -99,10 +107,14 @@ public:
 	void copyBoard(Board board);			
 };
 ```
+</p>
+</details>
 
 #### Search Functions and Mode Declarations
 
 <details>
+<p>
+
 ```cpp
 //Breath-First Search
 void BFS(tNode* Parent);
@@ -127,4 +139,5 @@ bool comDFS_V(tNode* curr, size_t count);
 //Multi Player (Human vs Human)
 void MultiPlay(Board board);
 ```
+</p>
 </details>
