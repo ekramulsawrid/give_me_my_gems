@@ -1,7 +1,7 @@
 # Give Me My Gems
 <!-- # give_me_my_gems -->
 
-Game based of the board game Mancala. The rules are the same. There is multiple modes: multiplayer and playing against computer (breath-first search, dept-first search, and min-max search modes). The games stops once a player wins.
+Game based of the board game Mancala. The rules are the same. There is multiple modes: multiplayer and playing against computer, which uses dept-first search to find a winning state. The games stops once a player wins.
 
 ## Author
 
@@ -21,7 +21,7 @@ C++
 
 ## Code Summery
 
-There is a board, state, and tree class. The state class has a has-a relation with the board class and this enables the  board to have different "states". The tree class has a has-as relation with the state class. Using all this, the tree will grow so graph search can be used to find a winning state. 
+There is a board and a state class. The state class has a has-a relation with the board class and this enables the  board to have different "states". The dept-first search that the computer uses creates trees of these states along the path of search to find a winning state. There are also breath-first search and min-max search functions that find a winning state but it has not been implemented to play against a user.
 
 ### Code Snippets
 
@@ -87,8 +87,16 @@ private:
 <details>
 <p>
 
+<p>
+
+
 [Header File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/State.h)
+</p>
+<p>
+
+
 [Implementation File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/State.cpp)
+</p>
 
 ```cpp
 class tNode{
@@ -127,8 +135,14 @@ public:
 <details>
 <p>
 
+<p>
+
 [Header File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/Functions.h)
+</p>
+<p>
+
 [Implementation File](https://github.com/ekramulsawrid/give_me_my_gems/blob/master/Functions.cpp)
+</p>
 
 ```cpp
 //Breath-First Search
@@ -156,3 +170,16 @@ void MultiPlay(Board board);
 ```
 </p>
 </details>
+
+## Installation and Implementation
+
+### Installation
+<p>1) In your console or terminal, go to the directory you want to clone this respository in. </p>
+<p>2) Type `git clone https://github.com/ekramulsawrid/give_me_my_gems.git` to clone to that directory.</p>
+
+### Implementation
+<p>1) In your console or terminal, go to the repository </p>
+<p>2) Open main.cpp to uncomment the mode you want to play and save the file. </p>
+<p>3) Type `make runMain` to run the program.</p>
+
+
