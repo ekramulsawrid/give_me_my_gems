@@ -174,12 +174,12 @@ void MultiPlay(Board board);
 ## Installation and Implementation
 
 ### Installation
-<p>1) In your console or terminal, go to the directory you want to clone this respository in. </p>
-<p>2) Type (`git clone https://github.com/ekramulsawrid/give_me_my_gems.git`) to clone to that directory.</p>
+1) In your console or terminal, go to the directory you want to clone this respository in. 
+2) Type (`git clone https://github.com/ekramulsawrid/give_me_my_gems.git`) to clone to that directory.
 
 ### Implementation
-<p>1) In your console or terminal, go to the repository </p>
-<p>2) Open main.cpp to uncomment the mode you want to play and save the file. </p>
-<p>3) Type (`make runMain`) to run the program.</p>
+1) In your console or terminal, go to the repository 
+2) Open main.cpp to uncomment the mode you want to play and save the file. 
+3) Type (`make runMain`) to run the program.
 
 
