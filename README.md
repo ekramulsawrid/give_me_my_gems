@@ -175,22 +175,22 @@ void MultiPlay(Board board);
 
 ### Installation
 1) In your console or terminal, go to the directory you want to clone this respository in. 
-2) Type (`git clone https://github.com/ekramulsawrid/give_me_my_gems.git`) to clone to that directory.
+2) Type `git clone https://github.com/ekramulsawrid/give_me_my_gems.git` to clone to that directory.
 
 ### Implementation
 1) In your console or terminal, go to the repository 
 2) Open main.cpp to uncomment the mode you want to play and save the file. 
-3) Type (`make runMain`) to run the program.
+3) Type `make runMain` to run the program.
 
 
-### Contributing
+## Contributing
 
 Contributions will be greatly appreciated. 
 
 1) Fork the project.
-2) Create your feature branch.
-3) Commit your changes.
-4) Push to the branch.
+2) Create your feature branch by typing `git checkout -b your_branch_name`.
+3) Commit your changes by typing `git commit -m 'your commemt'`.
+4) Push to the branch by typing `git push origin your_branch_name`.
 5) Open a pull request.
 
 
